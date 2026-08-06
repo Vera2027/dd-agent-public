@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Secrets
+.env
+.env.*
+.streamlit/secrets.toml
+
+# Uploaded and generated files
+ui_workspace/
+artifacts/
+uploads/
+materials/
+parsed/
+kb/
+report/
+report_draft/
+fact_fields/
+analysis_fields/
+evidence_packs/
+
+*.parsed.json
+*.raw.txt
+*.pkl
+chunks.jsonl
+kb_metadata.json
+structured_results.json
+structured_results.md
+structured_results.docx
+validation_results.json
+failed_files.json
+excluded_files.json
+
+# Operating system and IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
